@@ -1,4 +1,6 @@
 #!/bin/sh
+# Allow access to port 112 for VRRP
+ufw allow 112
 # Install keepalived
 apt install keepalived -y
 
