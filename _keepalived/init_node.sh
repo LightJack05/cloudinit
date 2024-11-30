@@ -1,5 +1,5 @@
 #!/bin/sh
-source variables.sh
+. ./variables.sh
 
 sed -i "s/{{STATE}}/$STATE/" /etc/keepalived/keepalived.conf
 sed -i "s/{{VRID}}/$VRID/" /etc/keepalived/keepalived.conf
