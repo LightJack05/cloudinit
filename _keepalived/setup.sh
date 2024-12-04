@@ -1,6 +1,6 @@
 #!/bin/sh
 # Allow access to port 112 for VRRP
-ufw allow 112
+ufw allow in on eth0 from any to 224.0.0.18 comment "allow multicast for keepalived"
 # Install keepalived
 apt install keepalived -y
 
