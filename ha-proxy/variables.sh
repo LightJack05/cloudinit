@@ -1,0 +1,4 @@
+# HA-Proxy Variables
+HA_PROXY_EXT_PORT="8443"
+HA_PROXY_INT_PORT="443"
+HA_PROXY_HOST_ADDR=( "10." "10." "10." )
